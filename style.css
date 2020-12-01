@@ -1,0 +1,125 @@
+/*
+Theme Name: Twenty Nineteen
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Queen_Destroy';
+    src: url('fonts/Queen_Destroy.ttf');
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+/* HEADER */
+header {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    /* height: 20vh */
+}
+
+.logo {
+    padding: 10px;
+    line-height: 100px;
+}
+.logo img {
+    display: block;
+    height: 200px;
+}
+nav {
+    width: 400px;
+}
+ul {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header ul li {
+    display: inline;
+    list-style: none;
+
+    font-family: 'Queen_Destroy';
+}
+
+nav a {
+    text-decoration: none;
+    color: #0D0D0D;
+    font-size: 30px;
+}
+/* HEADER */
+
+
+/* SLIDER */
+/* .slider {
+    width: 1200px;
+    height: 400px;
+} */
+
+/* .bx-wrapper {
+    width: 1200px;
+    margin: auto;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.slider img {
+    width: 100%;
+} */
+
+
+
+.wraper-swiper  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 80vh; */
+}
+
+.swiper-container, .swiper-container-video {
+    height: 700px;    
+}
+
+.swiper-container img {
+    width: 100%;
+}
+.swiper-button-next {
+    margin: 10px;
+}
+
+
+.swiper-container-video iframe{
+    width: 100%;
+    height: 700px;
+}
+/* SLIDER */
+
+
+
+/* SCHEDULE */
+.schedule {
+    display: flex;
+    justify-content: center;
+}
+
+.schedule img {
+    display: block;
+    width: 100%;;
+}
+
+footer {
+    margin: 50px 0;
+    text-align: center;
+    font-family: 'Queen_Destroy';
+}
+/* SCHEDULE */
