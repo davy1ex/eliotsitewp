@@ -19,6 +19,9 @@ function eliottheme_scripts() {
     wp_enqueue_script( 'script-name', get_template_directory_uri() . '/dist/swiper/swiper-bundle.min.js');
     // swiper   
     wp_enqueue_script( 'script-name', get_template_directory_uri() . '/assets/js/index.js');
+
+    // menu
+    register_nav_menu( 'top', 'top_menu' );
 }
 
 function smartslider_widgets_init() {

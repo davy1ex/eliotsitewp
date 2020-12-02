@@ -48,6 +48,10 @@ header ul li {
     display: inline;
     list-style: none;
 
+    
+}
+
+header li a {
     font-family: 'Queen_Destroy';
 }
 

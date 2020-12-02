@@ -17,7 +17,7 @@
     </div>
 
     <div class="schedule container">
-        <img src="<?php echo get_template_directory_uri() . "/assets/images/schedule.png "?>" alt="">
+        <img src="<?php the_field('schedule') ?>" alt="">
     </div> 
 
 <?php get_footer() ?>
