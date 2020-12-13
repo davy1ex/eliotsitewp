@@ -110,6 +110,18 @@ nav a {
 
 
 
+
+/* POST */
+.post {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: #0D0D0D;
+}
+/* POST */
+
+
+
+
 /* SCHEDULE */
 .schedule {
     display: flex;
