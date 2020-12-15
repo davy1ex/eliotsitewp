@@ -112,10 +112,55 @@ nav a {
 
 
 /* POST */
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .post {
+    width: 45%;
     margin-top: 20px;
     margin-bottom: 20px;
-    box-shadow: #0D0D0D;
+    padding: 5px;
+
+    box-shadow: 0 0 5px #0D0D0D;
+    border-radius: 10px;
+
+}
+.post-categories {
+    height: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+    list-style: none;
+}
+.meta {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.meta-child {
+    width: auto;
+}
+.post-title h2{
+    font-size: 30px;
+}
+
+.post-title h2 a{
+    color: #0D0D0D;
+    text-decoration: none;
+}
+.post-title h2 a:visited{
+    color: #0D0D0D;
+}
+.post-title h2 a:hover{
+    color: #3f3f3f;
+}
+
+.post-text-preview p{
+    font-size: 20px;
+    word-wrap: break-word;
 }
 /* POST */
 
