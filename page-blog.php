@@ -21,9 +21,9 @@ Template Name: Blog
                         <!-- <div class="meta-comments meta-child"><?php //comments_popup_link(__('0 comments','example'),__('1 comment','example'),__('% comments','example')); ?></div> -->
                     </div>
                     <div class="post-text-preview">
-                        <?php the_excerpt(__('Continue reading »','example')); ?>
+                        <?php the_excerpt(); ?>
                     </div>
-                </div><!-- /#post-<?php get_the_ID(); ?> -->
+                </div><!-- /#post-<?php //get_the_ID(); ?> -->
 
             <?php endwhile; ?>
 
@@ -50,3 +50,6 @@ Template Name: Blog
 
 <!-- (-1+2*exp(-s*@tau)-2*exp(-2*s*@tau)-2*exp(-7*s*@tau)+2*exp(-9*s*@tau)-2*exp(-10*s*@tau)+exp(-11*s*@tau))/s -->
 <!-- (-1+2*exp(-s*@tau)-2*exp(-2*s*@tau)+2*exp(-4*s*@tau)-2*exp(-5*s*@tau)+2*exp(-8*s*@tau)-exp(-11*s*@tau))/s -->
+
+<!-- (−1+2*exp(−s*@tau)−2*exp(−2*s*@tau)+2*exp(−4*@tau*s)−2*exp(−5*@tau*s)+2*exp(−8*@tau*s)−exp(−11*@tau*s))/s -->
+ 

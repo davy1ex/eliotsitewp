@@ -140,9 +140,10 @@ nav a {
     flex-direction: row;
     width: 100%;
 }
-.meta-child {
-    width: auto;
+.meta-date  {
+    color: #686868;
 }
+
 .post-title h2{
     font-size: 30px;
 }

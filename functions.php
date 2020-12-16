@@ -1,6 +1,13 @@
 <?
 add_action( 'wp_enqueue_scripts', 'eliottheme_scripts' );
 
+add_action( 'widgets_init', 'smartslider_widgets_init' );
+
+add_filter( 'excerpt_length', function(){
+	return 10;
+} );
+add_filter( 'excerpt_more', 'new_excerpt_more' );
+
 function eliottheme_scripts() {
     wp_enqueue_style( 'style-name', get_stylesheet_uri('style.css') );    
 
@@ -32,4 +39,11 @@ function smartslider_widgets_init() {
         'after_widget'  => '</div>'
     ));
 }
-add_action( 'widgets_init', 'smartslider_widgets_init' );
+
+
+
+function new_excerpt_more( $more ){
+	global $post;
+	return '<a href="'. get_permalink($post) . '">Читать дальше...</a>';
+}
+
