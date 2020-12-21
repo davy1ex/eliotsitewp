@@ -1,0 +1,172 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+@font-face {
+    font-family: 'Queen_Destroy';
+    src: url('../fonts/Queen_Destroy.ttf');
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+/* HEADER */
+header {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    /* height: 20vh */
+}
+
+.logo {
+    padding: 10px;
+    line-height: 100px;
+}
+.logo img {
+    display: block;
+    height: 200px;
+}
+nav {
+    width: 400px;
+}
+header ul {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header ul li {
+    display: inline;
+    list-style: none;
+
+    
+}
+
+header li a {
+    font-family: 'Queen_Destroy';
+}
+
+nav a {
+    text-decoration: none;
+    color: #0D0D0D;
+    font-size: 30px;
+}
+/* HEADER */
+
+
+
+
+/* SLIDER */
+.wraper-swiper  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 80vh; */
+}
+
+.swiper-container, .swiper-container-video {
+    height: 700px;    
+}
+
+.swiper-container img {
+    width: 100%;
+}
+.swiper-button-next {
+    margin: 10px;
+}
+
+
+.swiper-container-video iframe{
+    width: 100%;
+    height: 700px;
+}
+/* SLIDER */
+
+
+
+
+/* POST */
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.post {
+    width: 45%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+
+    box-shadow: 0 0 5px #0D0D0D;
+    border-radius: 10px;
+
+}
+.post-categories {
+    height: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+    list-style: none;
+}
+.meta {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.meta-date  {
+    color: #686868;
+}
+
+.post-title h2{
+    font-size: 30px;
+}
+
+.post-title h2 a{
+    color: #0D0D0D;
+    text-decoration: none;
+}
+.post-title h2 a:visited{
+    color: #0D0D0D;
+}
+.post-title h2 a:hover{
+    color: #3f3f3f;
+}
+
+.post-text-preview p {
+    font-size: 20px;
+    word-wrap: break-word;
+}
+
+.single-post {
+    padding: 10px;
+    box-shadow: 0 0 5px #0D0D0D;
+    border-radius: 10px;
+}
+/* POST */
+
+
+
+
+/* SCHEDULE */
+.schedule {
+    display: flex;
+    justify-content: center;
+}
+
+.schedule img {
+    display: block;
+    width: 100%;;
+}
+
+footer {
+    margin: 50px 0;
+    text-align: center;
+    font-family: 'Queen_Destroy';
+}
+/* SCHEDULE */

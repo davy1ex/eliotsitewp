@@ -1,6 +1,8 @@
 {
     "require": {
-        "wpackagist-plugin/advanced-custom-fields": "^5.9"
+        "wpackagist-plugin/advanced-custom-fields": "^5.9",
+        "wpackagist-plugin/smart-slider-3": "3.4.1.14",
+        "wpackagist-plugin/pods": "^2.7"
     },
 
     "repositories": [
